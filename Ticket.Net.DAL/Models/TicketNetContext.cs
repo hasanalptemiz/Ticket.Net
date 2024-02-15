@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
 namespace Ticket.Net.DAL.Models
-{
-    internal class TicketNetContext : DbContext
+{ 
+    public class TicketNetContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
