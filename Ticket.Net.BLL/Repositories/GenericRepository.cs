@@ -80,7 +80,4 @@ namespace Ticket.Net.BLL.Repositories {
         }
     }
 
-
-
-
 }

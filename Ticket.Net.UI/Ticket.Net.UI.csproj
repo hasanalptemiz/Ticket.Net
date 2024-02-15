@@ -5,5 +5,8 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
-
+  <ItemGroup> 
+  <ProjectReference Include="..\Ticket.Net.DAL\Ticket.Net.DAL.csproj" />
+  <ProjectReference Include="..\Ticket.Net.BLL\Ticket.Net.BLL.csproj" />
+  </ItemGroup>
 </Project>
